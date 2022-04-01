@@ -1,0 +1,86 @@
+#header {
+  width: 79%;
+  margin: auto;
+  height: 110px;
+  background-color: white;
+  display: grid;
+  position: fixed;
+  font-size: smaller;
+  grid-gap: 36px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  grid-template-columns: repeat(28, 1fr);
+}
+#apolloimage {
+  grid-area: 1/1/2/15;
+  width: 80px;
+  padding: 30px 0px 10px 20px;
+  cursor: pointer;
+}
+.h4 {
+  color: #02475b;
+  border-bottom: 1px solid #01475b;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 580;
+  line-height: normal;
+}
+.p {
+  color: #7a9ea9;
+  font-size: smaller;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#doc {
+  padding-top: 15px;
+  grid-area: 1/15/2/16;
+  cursor: pointer;
+}
+#pharma {
+  padding-top: 15px;
+  grid-area: 1/16/2/19;
+  cursor: pointer;
+}
+#labtest {
+  padding-top: 15px;
+  grid-area: 1/19/2/22;
+  cursor: pointer;
+}
+#covid {
+  padding-top: 15px;
+  grid-area: 1/22/2/25;
+  cursor: pointer;
+}
+
+#cartsymbol {
+  padding-top: 50px;
+  grid-area: 1/25/2/26;
+  cursor: pointer;
+}
+#cartcount {
+  grid-area: 1/25/2/26;
+  color: white;
+  width: 14px;
+  height: 14px;
+  font-size: 9px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  line-height: 14px;
+  border-radius: 50%;
+  background-color: #ff748e;
+  margin-top: 43px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+#accountsymbol {
+  padding-top: 30px;
+  grid-area: 1/26/2/28;
+  background-color: #02475b;
+  color: #fff;
+  width: 25px;
+  margin-top: 40px;
+  padding: 15px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
